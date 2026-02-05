@@ -1,0 +1,4 @@
+{
+    "command": "npm run lint",
+    "working_directory": "/home/kavia/workspace/code-generation/smartassist-personal-organizer-15-29/mobile_frontend"
+}
