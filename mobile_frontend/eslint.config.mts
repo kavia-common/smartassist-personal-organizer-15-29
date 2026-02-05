@@ -7,4 +7,17 @@ export default defineConfig([
   { files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"], languageOptions: { globals: globals.browser } },
   tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
+  {
+    settings: {
+      react: {
+        version: "detect",
+      },
+    },
+  },
+  {
+    files: ["metro.config.js"],
+    rules: {
+      "@typescript-eslint/no-require-imports": "off",
+    },
+  },
 ]);
